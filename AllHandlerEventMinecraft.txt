@@ -1,0 +1,154 @@
+AsyncPlayerChatEvent : déclenché lorsqu'un joueur envoie un message dans le chat.
+AsyncPlayerPreLoginEvent : déclenché lorsqu'un joueur se connecte au serveur avant que sa session ne soit entièrement chargée.
+BlockBreakEvent : déclenché lorsqu'un bloc est cassé dans le monde.
+BlockBurnEvent : déclenché lorsqu'un bloc commence à brûler.
+BlockCanBuildEvent : déclenché lorsqu'un joueur essaie de placer un bloc, pour vérifier si le bloc peut être placé à cet endroit.
+BlockCookEvent : déclenché lorsqu'un four cuit un élément.
+BlockDamageEvent : déclenché lorsqu'un joueur endommage un bloc.
+BlockDispenseEvent : déclenché lorsqu'un distributeur distribue un objet.
+BlockDropItemEvent : déclenché lorsqu'un bloc lâche un objet.
+BlockExpEvent : déclenché lorsqu'un bloc accorde de l'expérience au joueur qui l'a cassé.
+BlockExplodeEvent : déclenché lorsqu'un bloc explose.
+BlockFadeEvent : déclenché lorsqu'un bloc disparaît ou change de forme.
+BlockFormEvent : déclenché lorsqu'un bloc se forme ou se transforme en un autre type de bloc.
+BlockFromToEvent : déclenché lorsqu'un bloc se déplace de sa position actuelle à une nouvelle position.
+BlockGrowEvent : déclenché lorsqu'un bloc pousse ou grandit.
+BlockIgniteEvent : déclenché lorsqu'un bloc est allumé.
+BlockMultiPlaceEvent : déclenché lorsqu'un joueur place plusieurs blocs en même temps.
+BlockPhysicsEvent : déclenché lorsqu'un bloc se met à jour en fonction de son environnement.
+BlockPistonExtendEvent : déclenché lorsqu'un piston s'étend et pousse des blocs.
+BlockPistonRetractEvent : déclenché lorsqu'un piston se rétracte et tire des blocs.
+BlockPlaceEvent : déclenché lorsqu'un joueur place un bloc dans le monde.
+BlockRedstoneEvent : déclenché lorsqu'un signal redstone est mis à jour.
+BlockSpreadEvent : déclenché lorsqu'un bloc se propage à d'autres blocs.
+BrewEvent : déclenché lorsqu'un joueur brasse une potion dans un alambic.
+ChunkLoadEvent : déclenché lorsqu'un chunk est chargé en mémoire.
+ChunkPopulateEvent : déclenché lorsqu'un chunk est peuplé de blocs et d'entités.
+ChunkUnloadEvent : déclenché lorsqu'un chunk est déchargé de la mémoire.
+CreatureSpawnEvent : déclenché lorsqu'une créature apparaît dans le monde.
+CreeperPowerEvent : déclenché lorsqu'un creeper est foudroyé par un éclair.
+CustomEvent : permet de définir des événements personnalisés pour votre plugin.
+EnderDragonChangePhaseEvent : déclenché lorsqu'un dragon de l'Ender change de phase.
+EntityBlockFormEvent : déclenché lorsqu'une entité transforme un bloc en un autre type de bloc.
+EntityBreakDoorEvent : déclenché lorsqu'une entité casse une porte.
+EntityChangeBlockEvent : déclenché lorsqu'une entité change un bloc en un autre type de bloc.
+EntityCombustByBlockEvent : déclenché lorsqu'une entité prend feu à cause d'un bloc enflammé.
+EntityCombustByEntityEvent : déclenché lorsqu'une entité prend feu à cause d'une autre entité.
+EntityCombustEvent : déclenché lorsqu'une entité prend feu.
+EntityCreatePortalEvent : déclenché lorsqu'une entité crée un portail.
+EntityDamageByBlockEvent : déclenché lorsqu'une entité subit des dégâts causés par un bloc.
+EntityDamageByEntityEvent : déclenché lorsqu'une entité subit des dégâts causés par une autre entité.
+EntityDamageEvent : déclenché lorsqu'une entité subit des dégâts.
+EntityDeathEvent : déclenché lorsqu'une entité meurt.
+EntityDropItemEvent : déclenché lorsqu'une entité lâche un objet.
+EntityExplodeEvent : déclenché lorsqu'une entité explose.
+EntityInteractEvent : déclenché lorsqu'une entité interagit avec un objet dans le monde.
+EntityMountEvent : déclenché lorsqu'une entité monte sur une autre entité.
+EntityPickupItemEvent : déclenché lorsqu'une entité ramasse un objet.
+EntityPortalEnterEvent : déclenché lorsqu'une entité entre dans un portail.
+EntityPortalEvent : déclenché lorsqu'une entité est téléportée à travers un portail.
+EntityPortalExitEvent : déclenché lorsqu'une entité sort d'un portail.
+EntityRegainHealthEvent : déclenché lorsqu'une entité regagne de la santé.
+EntityResurrectEvent : déclenché lorsqu'une entité est ressuscitée.
+EntityShootBowEvent : déclenché lorsqu'une entité tire avec un arc.
+EntitySpawnEvent : déclenché lorsqu'une entité apparaît dans le monde.
+EntityTameEvent : déclenché lorsqu'une entité est apprivoisée.
+EntityTargetEvent : déclenché lorsqu'une entité cible une autre entité.
+EntityTargetLivingEntityEvent : déclenché lorsqu'une entité cible une autre entité vivante.
+EntityTeleportEvent : déclenché lorsqu'une entité est téléportée.
+ExplosionPrimeEvent : déclenché lorsqu'une explosion est en train d'être préparée.
+FoodLevelChangeEvent : déclenché lorsqu'un joueur change de niveau de faim.
+HangingBreakByEntityEvent : déclenché lorsqu'un objet accroché est cassé par une entité.
+HangingBreakEvent : déclenché lorsqu'un objet accroché est cassé.
+HangingPlaceEvent : déclenché lorsqu'un objet accroché est placé dans le monde.
+InventoryClickEvent : déclenché lorsqu'un joueur clique sur un objet dans son inventaire.
+InventoryCloseEvent : déclenché lorsqu'un joueur ferme son inventaire.
+InventoryCreativeEvent : déclenché lorsqu'un joueur utilise l'inventaire de créatif.
+InventoryDragEvent : déclenché lorsqu'un joueur fait glisser des objets dans son inventaire.
+InventoryInteractEvent : déclenché lorsqu'un joueur interagit avec un inventaire.
+InventoryMoveItemEvent : déclenché lorsqu'un objet est déplacé d'un inventaire à un autre.
+InventoryOpenEvent : déclenché lorsqu'un joueur ouvre un inventaire.
+InventoryPickupItemEvent : déclenché lorsqu'un joueur ramasse un objet d'un inventaire.
+ItemDespawnEvent : déclenché lorsqu'un objet disparaît du monde.
+ItemMergeEvent : déclenché lorsqu'un objet se combine avec un autre objet.
+ItemSpawnEvent : déclenché lorsqu'un objet apparaît dans le monde.
+LeavesDecayEvent : déclenché lorsqu'un bloc de feuilles se désintègre.
+LightningStrikeEvent : déclenché lorsqu'un éclair frappe le sol.
+MapInitializeEvent : déclenché lorsqu'une carte est initialisée.
+NotePlayEvent : déclenché lorsqu'une note est jouée.
+PigZapEvent : déclenché lorsqu'un cochon est frappé par la foudre.
+PlayerAchievementAwardedEvent : déclenché lorsqu'un joueur obtient une réussite.
+PlayerAnimationEvent : déclenché lorsqu'un joueur joue une animation.
+PlayerArmorStandManipulateEvent : déclenché lorsqu'un joueur manipule un porte-armure.
+PlayerBedEnterEvent : déclenché lorsqu'un joueur entre dans un lit.
+PlayerBedLeaveEvent : déclenché lorsqu'un joueur sort d'un lit.
+PlayerBucketEmptyEvent : déclenché lorsqu'un joueur vide un seau.
+PlayerBucketFillEvent : déclenché lorsqu'un joueur remplit un seau.
+PlayerChangedMainHandEvent : déclenché lorsqu'un joueur change d'outil principal.
+PlayerChangedWorldEvent : déclenché lorsqu'un joueur change de monde.
+PlayerChatEvent : déclenché lorsqu'un joueur envoie un message dans le tchat.
+PlayerChatTabCompleteEvent : déclenché lorsqu'un joueur utilise l'autocomplétion dans le tchat.
+PlayerCommandPreprocessEvent : déclenché lorsqu'un joueur envoie une commande dans la console.
+PlayerDropItemEvent : déclenché lorsqu'un joueur lâche un objet.
+PlayerEditBookEvent : déclenché lorsqu'un joueur modifie un livre dans son inventaire.
+PlayerEggThrowEvent : déclenché lorsqu'un joueur lance un œuf.
+PlayerExpChangeEvent : déclenché lorsqu'un joueur gagne ou perd de l'expérience.
+PlayerFishEvent : déclenché lorsqu'un joueur attrape un poisson avec une canne à pêche.
+PlayerGameModeChangeEvent : déclenché lorsqu'un joueur change de mode de jeu.
+PlayerInteractAtEntityEvent : déclenché lorsqu'un joueur interagit avec une entité.
+PlayerInteractEntityEvent : déclenché lorsqu'un joueur interagit avec une entité.
+PlayerInteractEvent : déclenché lorsqu'un joueur interagit avec un bloc ou un objet.
+PlayerInventoryEvent : déclenché lorsqu'un joueur interagit avec son inventaire.
+PlayerItemBreakEvent : déclenché lorsqu'un objet de l'inventaire d'un joueur se brise.
+PlayerItemConsumeEvent : déclenché lorsqu'un joueur consomme un objet.
+PlayerItemDamageEvent : déclenché lorsqu'un objet de l'inventaire d'un joueur est endommagé.
+PlayerItemHeldEvent : déclenché lorsqu'un joueur change d'objet tenu en main.
+PlayerJoinEvent : déclenché lorsqu'un joueur rejoint le serveur.
+PlayerKickEvent : déclenché lorsqu'un joueur est expulsé du serveur.
+PlayerLeashEntityEvent : déclenché lorsqu'un joueur attache une entité à une laisse.
+PlayerLevelChangeEvent : déclenché lorsqu'un joueur change de niveau.
+PlayerLoginEvent : déclenché lorsqu'un joueur se connecte au serveur.
+PlayerMoveEvent : déclenché lorsqu'un joueur se déplace dans le monde.
+PlayerPickupArrowEvent : déclenché lorsqu'un joueur ramasse une flèche.
+PlayerPickupItemEvent : déclenché lorsqu'un joueur ramasse un objet.
+PlayerPortalEvent : déclenché lorsqu'un joueur entre ou sort d'un portail.
+PlayerQuitEvent : déclenché lorsqu'un joueur quitte le serveur.
+PlayerRecipeDiscoverEvent : déclenché lorsqu'un joueur découvre une nouvelle recette.
+PlayerResourcePackStatusEvent : déclenché lorsqu'un joueur télécharge ou refuse un pack de ressources.
+PlayerRespawnEvent : déclenché lorsqu'un joueur réapparaît après sa mort.
+PlayerShearEntityEvent : déclenché lorsqu'un joueur tond une entité.
+PlayerStatisticIncrementEvent : déclenché lorsqu'un joueur gagne une statistique.
+PlayerSwapHandItemsEvent : déclenché lorsqu'un joueur échange les objets qu'il tient en main.
+PlayerTeleportEvent : déclenché lorsqu'un joueur se téléporte dans le monde.
+PlayerToggleFlightEvent : déclenché lorsqu'un joueur active ou désactive son vol.
+PlayerToggleSneakEvent : déclenché lorsqu'un joueur active ou désactive s'accroupir.
+PlayerToggleSprintEvent : déclenché lorsqu'un joueur active ou désactive la course rapide.
+PlayerUnleashEntityEvent : déclenché lorsqu'un joueur détache une entité d'une laisse.
+PlayerUnregisterChannelEvent : déclenché lorsqu'un joueur se désenregistre d'un canal de plugin.
+PlayerVelocityEvent : déclenché lorsqu'un joueur change de vitesse.
+PluginDisableEvent : déclenché lorsqu'un plugin est désactivé.
+PluginEnableEvent : déclenché lorsqu'un plugin est activé.
+PortalCreateEvent : déclenché lorsqu'un portail est créé dans le monde.
+PortalEvent : événement parent pour tous les événements de portail.
+PrepareAnvilEvent : déclenché lorsqu'un joueur prépare une enclume pour une réparation.
+PrepareItemCraftEvent : déclenché lorsqu'un joueur prépare un objet pour la fabrication.
+PreSpawnerSpawnEvent : déclenché lorsqu'un monstre est sur le point d'apparaître à partir d'un spawner.
+ServerCommandEvent : déclenché lorsqu'une commande est envoyée depuis la console du serveur.
+ServerEvent : événement parent pour tous les événements de serveur.
+ServiceEvent : événement parent pour tous les événements de service.
+ServiceRegisterEvent : déclenché lorsqu'un service est enregistré.
+ServiceUnregisterEvent : déclenché lorsqu'un service est désenregistré.
+SignChangeEvent : déclenché lorsqu'un joueur modifie le texte d'un panneau.
+SpawnChangeEvent : déclenché lorsqu'un joueur change de point d'apparition.
+StructureGrowEvent : déclenché lorsqu'une structure se génère dans le monde.
+TabCompleteEvent : déclenché lorsqu'un joueur tape une commande et demande une liste de suggestions de commande.
+ThunderChangeEvent : déclenché lorsqu'un orage se déclenche ou se termine dans le monde.
+VehicleBlockCollisionEvent : déclenché lorsqu'un véhicule heurte un bloc dans le monde.
+VehicleCreateEvent : déclenché lorsqu'un véhicule est créé dans le monde.
+VehicleDamageEvent : déclenché lorsqu'un véhicule est endommagé dans le monde.
+VehicleDestroyEvent : déclenché lorsqu'un véhicule est détruit dans le monde.
+VehicleEnterEvent : déclenché lorsqu'un joueur entre dans un véhicule.
+VehicleEntityCollisionEvent : déclenché lorsqu'un véhicule heurte une entité dans le monde.
+VehicleExitEvent : déclenché lorsqu'un joueur sort d'un véhicule.
+VehicleMoveEvent : déclenché lorsqu'un véhicule se déplace dans le monde.
+VehicleUpdateEvent : déclenché lorsqu'un véhicule est mis à jour dans le monde.
